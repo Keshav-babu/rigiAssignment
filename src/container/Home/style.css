@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 12px auto;
+    padding: 0;
+    gap: 10%;
+    .left{
+        padding: 8px;
+        width: 500px;
+        border: 1px solid;
+        height: 80vh;
+        overflow: scroll;
+        padding-right: 12px;
+    }
+    .right{
+      width: 240px;
+      border: 1px solid red;
+      height: fit-content;
+      padding: 0 10px;
+      margin-right: 10px;
+
+      .memberss-container{
+        height: 400px;
+        overflow: scroll;
+      }
+
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Auto height */
+    }
+  
+    .right {
+      margin-right: 0; /* Remove margin for mobile */
+      margin-top: 20px; /* Add margin to create space */
+    }
+}

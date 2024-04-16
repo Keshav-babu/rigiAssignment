@@ -1,0 +1,23 @@
+.post-container-layout{
+    display: flex;
+    gap: 12px;
+    border: 1px solid red;
+    margin: 6px 0;
+    /* height: 260px; */
+
+    .profile-picture{
+        aspect-ratio: 1/1;
+        width: 30px;
+        height: 30px;
+        display: block;
+        border-radius: 50%;
+    }
+
+    .post-content{
+    width: 100%;
+
+        p{
+            margin-top: 0;
+        }
+    }
+}
