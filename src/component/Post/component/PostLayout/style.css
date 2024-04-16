@@ -1,7 +1,6 @@
 .post-container-layout{
     display: flex;
     gap: 12px;
-    border: 1px solid red;
     margin: 6px 0;
     /* height: 260px; */
 
